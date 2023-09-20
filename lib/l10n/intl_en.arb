@@ -1,0 +1,28 @@
+{
+  "@@locale": "en",
+  "welcome": "Welcome",
+  "@welcome": {
+    "description": "Welcome Text"
+  },
+  "name": "Name:",
+  "@name": {
+    "description": "Name Text"
+  },
+  "email": "Email:",
+  "@email": {
+    "description": "Email Text"
+  },
+  "phone": "Phone:",
+  "@phone": {
+    "description": "Number Text"
+  },
+  "country": "Country:",
+  "@country": {
+    "description": "Country text"
+  },
+  "userLogin": "User Login",
+  "@userLogin": {
+    "description": "User Login text"
+  }
+
+}

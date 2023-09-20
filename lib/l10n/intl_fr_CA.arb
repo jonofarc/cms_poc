@@ -1,0 +1,28 @@
+{
+
+  "@@locale": "fr-CA",
+  "welcome": "Bienvenue",
+  "@welcome": {
+    "description": "texte de bienvenue"
+  },
+  "name": "nom:",
+  "@name": {
+    "description": "texte du nom"
+  },
+  "email": "E-mail:",
+  "@email": {
+    "description": "texte d'e-mail"
+  },
+  "phone": "numérique:",
+  "@phone": {
+    "description": "texte numérique"
+  },
+  "country": "pays:",
+  "@country": {
+    "description": "texte du pays"
+  },
+  "userLogin": "Utilisateur en ligne",
+  "@userLogin": {
+    "description": "Utilisateur en ligne"
+  }
+}
