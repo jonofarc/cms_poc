@@ -108,10 +108,10 @@ class _BannerWidgetState extends State<BannerWidget> {
   void _launchUrl() async {
     if (widget.url != null && widget.url!.isNotEmpty) {
       Uri uri = Uri.parse(widget.url!);
-      if (await canLaunchUrl(uri)) {
+      try {
         await launchUrl(uri);
-      } else {
-        throw 'Could not launch ${widget.url}';
+      } catch (e) {
+        throw 'Could not launch ${widget.url} with error ${e.toString()}';
       }
     }
   }
